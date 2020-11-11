@@ -46,8 +46,6 @@ When in the context of a class, often used to convey discussion about its defini
 <a name="0"></a>
 ## 0. Principles
 
-These principles have been adapted from [idomatic.js style guide](https://github.com/rwaldron/idiomatic.js/).
-
 <a name="0.1"></a>
 ### 0.1 All structure, assets, and code in any Unreal Engine 4 project should look like a single person created it, no matter how many people contributed.
 
