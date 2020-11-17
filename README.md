@@ -370,12 +370,14 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 ### 2e1 Example Project Content Structure
 <pre>
 |-- Content
-    |-- <a href="#2.2">AIReverie</a>
+    |-- AIReverie
     	|-- Vehicles
 	|-- Characters
 	|-- Props
 	|-- Foliage
     |-- Project
+    	|-- Capture
+		|-- (Capture logic blueprints go here, along with weather and biomes stuff like that)
 </pre>
 
 The reasons for this structure are listed in the following sub-sections.
