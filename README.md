@@ -375,6 +375,19 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 	|-- Characters
 	|-- Props
 	|-- Foliage
+	|-- Annotations
+		|-- PostProcessing
+	|-- Capture
+	|-- Core
+	|-- Environment
+		|-- Data
+		|-- Sky
+		|-- Weather
+			|-- Dust
+			|-- Rain
+			|-- Snow
+	|-- Interfaces
+	|-- Libraries
     |-- Project
     	|-- Capture
 		|-- (Capture logic blueprints go here, along with weather and biomes stuff like that)
