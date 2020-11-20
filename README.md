@@ -1302,6 +1302,35 @@ No texture should have a dimension that exceeds 8192 in size, unless you have a 
 
 Every texture has a Texture Group property used for LODing, and this should be set correctly based on its use. For example, all UI textures should belong in the UI texture group.
 
+<a name="8"></a>
+<a name="perforce"></a>
+## 8. Perforce ![#](https://img.shields.io/badge/lint-unsupported-red.svg)
+
+This section will go over Perforce best practices
+
+<a name="8.1"></a>
+### 8.1 Changelists should only represent 1 "task"
+
+No changelist should contain more than one task. For example, if you are working on a task to fix a material, and also another task to add stuff to a data table, both of those should be done in different changelists. This is to ensure the ability to rollback changes to see what exactly caused an issue.
+
+### 8.2 Work should be submitted frequently
+
+A big reason to use version control is because it saves work somewhere other than your pc. In the event of a catastrophic PC failure, any work you have on your machine will be lost if it was not submitted to perforce. Keeping files checked out for multiple weeks can lead to you losing work and nobody wants that. It is encouraged to submit work that is not completed for the sake of "checkpointing" it.
+
+### 8.3 Changelst descriptions can be long
+
+The most important part of a changelist description is that it accurately describes what was done. Don't worry about keeping it short, there's a reason why the description box is massive.
+Some examples of bad descriptions:
+Vehicles
+Added textures
+Capture hot fix
+
+Examples of good descriptions:
+Decimated vehicles and added them to the appropriate LOD groups
+Added textures from Content Pack 2 to be used in {Project}
+Fix for captures stopping randomly. Bug description found in this jira ticket #######.
+
+
 **[⬆ Back to Top](#table-of-contents)**
 
 
