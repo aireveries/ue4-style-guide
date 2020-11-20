@@ -1320,15 +1320,16 @@ A big reason to use version control is because it saves work somewhere other tha
 ### 8.3 Changelst descriptions can be long
 
 The most important part of a changelist description is that it accurately describes what was done. Don't worry about keeping it short, there's a reason why the description box is massive.
+
 Some examples of bad descriptions:
-Vehicles
-Added textures
-Capture hot fix
+* Vehicles
+* Added textures
+* Capture hot fix
 
 Examples of good descriptions:
-Decimated vehicles and added them to the appropriate LOD groups
-Added textures from Content Pack 2 to be used in {Project}
-Fix for captures stopping randomly. Bug description found in this jira ticket #######.
+* Decimated vehicles and added them to the appropriate LOD groups
+* Added textures from Content Pack 2 to be used in {Project}
+* Fix for captures stopping randomly. Bug description found in this jira ticket #######.
 
 
 **[⬆ Back to Top](#table-of-contents)**
