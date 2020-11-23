@@ -1312,9 +1312,9 @@ This section will go over Perforce best practices
 
 No changelist should contain more than one task. For example, if you are working on a task to fix a material, and also another task to add stuff to a data table, both of those should be done in different changelists. This is to ensure the ability to rollback changes to see what exactly caused an issue.
 
-### 8.2 Work should be submitted frequently
+### 8.2 Work should be submitted frequently (Almost every day)
 
-A big reason to use version control is because it saves work somewhere other than your pc. In the event of a catastrophic PC failure, any work you have on your machine will be lost if it was not submitted to perforce. Keeping files checked out for multiple weeks can lead to you losing work and nobody wants that. It is encouraged to submit work that is not completed for the sake of "checkpointing" it.
+A big reason to use version control is because it saves work somewhere other than your pc. In the event of a catastrophic PC failure, any work you have on your machine will be lost if it was not submitted to perforce. Keeping files checked out for multiple weeks can lead to you losing work and nobody wants that. It is encouraged to submit work that is not completed for the sake of "checkpointing" it. Towards the end of your work day you should be making sure you aren't getting compile errors or warnings in your blueprints and then submitting them.
 
 ### 8.3 Changelst descriptions can be long
 
