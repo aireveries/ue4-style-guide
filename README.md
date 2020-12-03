@@ -1317,6 +1317,8 @@ No changelist should contain more than one task. For example, if you are working
 
 A big reason to use version control is because it saves work somewhere other than your pc. In the event of a catastrophic PC failure, any work you have on your machine will be lost if it was not submitted to perforce. Keeping files checked out for multiple weeks can lead to you losing work and nobody wants that. It is encouraged to submit work that is not completed for the sake of "checkpointing" it. Towards the end of your work day you should be making sure you aren't getting compile errors or warnings in your blueprints and then submitting them.
 
+Having more frequent submits also makes it significantly easier to track down bugs when they do occur.
+
 ### 8.3 Changelst descriptions can be long
 
 The most important part of a changelist description is that it accurately describes what was done. Don't worry about keeping it short, there's a reason why the description box is massive.
