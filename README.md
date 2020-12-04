@@ -1046,6 +1046,12 @@ If your project includes a plugin that defines `static` `BlueprintCallable` func
 
 For example, `Zed Camera Interface` or `Zed Camera Interface | Image Capturing`.
 
+<a name="3.3.6"></a>
+<a name="bp-graphs-funcs-pure"></a>
+### 3.3.6 Pure Functions Should Not Modify State, Therefore Pure Functions Should Always Be Const ![#](https://img.shields.io/badge/lint-unsupported-red.svg)
+
+A function can only be made pure if it doesn't modify state. That means it should not change parameters or anything else. For example a function that adds 2 numbers together and returns the value can be made pure, but a function that changes a parameter (or class varibale) should not be made pure. Since pure functions will never modify state following this rule, any function that is made pure should also be made constant.
+
 <a name="3.4"></a>
 <a name="bp-graphs"></a>
 ### 3.4 Blueprint Graphs ![#](https://img.shields.io/badge/lint-unsupported-red.svg)
