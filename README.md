@@ -1315,17 +1315,17 @@ Every texture has a Texture Group property used for LODing, and this should be s
 This section will go over Perforce best practices
 
 <a name="8.1"></a>
-### 8.1 Changelists should only represent 1 "task"
+### 8.1 Changelists should only represent 1 "task"![#](https://img.shields.io/badge/lint-unsupported-red.svg)
 
 No changelist should contain more than one task. For example, if you are working on a task to fix a material, and also another task to add stuff to a data table, both of those should be done in different changelists. This is to ensure the ability to rollback changes to see what exactly caused an issue.
 
-### 8.2 Work should be submitted frequently (Almost every day)
+### 8.2 Work should be submitted frequently (Almost every day)![#](https://img.shields.io/badge/lint-unsupported-red.svg)
 
 A big reason to use version control is because it saves work somewhere other than your pc. In the event of a catastrophic PC failure, any work you have on your machine will be lost if it was not submitted to perforce. Keeping files checked out for multiple weeks can lead to you losing work and nobody wants that. It is encouraged to submit work that is not completed for the sake of "checkpointing" it. Towards the end of your work day you should be making sure you aren't getting compile errors or warnings in your blueprints and then submitting them.
 
 Having more frequent submits also makes it significantly easier to track down bugs when they do occur.
 
-### 8.3 Changelst descriptions can be long
+### 8.3 Changelst descriptions can be long![#](https://img.shields.io/badge/lint-unsupported-red.svg)
 
 The most important part of a changelist description is that it accurately describes what was done. Don't worry about keeping it short, there's a reason why the description box is massive.
 
@@ -1338,6 +1338,10 @@ Examples of good descriptions:
 * Decimated vehicles and added them to the appropriate LOD groups
 * Added textures from Content Pack 2 to be used in {Project}
 * Fix for captures stopping randomly. Bug description found in this jira ticket #######.
+
+### 8.4 Revert unchanged files before submitting a changelist![#](https://img.shields.io/badge/lint-unsupported-red.svg)
+
+You should never be submitting any files that are unchanged. P4V has an easy way to avoid this by simply right clicking the changelist and selecting "Revert unchanged files"
 
 
 **[⬆ Back to Top](#table-of-contents)**
