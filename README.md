@@ -216,6 +216,8 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Structure               | F          |            | No underscore.                   |
 | Tutorial Blueprint      | TBP_       |            |                                  |
 | Widget Blueprint        | WBP_       |            |                                  |
+| Editor Utility Widget   | EUW_       |            |                                  |
+| Editor Utility Blueprint| EUBP_      |            |                                  |
 
 <a name="anc-materials"></a>
 <a name="1.2.5"></a>
