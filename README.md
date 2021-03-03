@@ -372,25 +372,9 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 <pre>
 |-- Content
     |-- AIReverie
-    	|-- Vehicles
-	|-- Characters
-	|-- Props
-	|-- Foliage
-	|-- Annotations
-		|-- PostProcessing
-	|-- Capture
-	|-- Core
-	|-- Environment
-		|-- Sky
-		|-- Weather
-			|-- Dust
-			|-- Rain
-			|-- Snow
-	|-- Interfaces
-	|-- Libraries
-    |-- Project
-    	|-- Capture
-		|-- (Capture logic blueprints go here, along with weather and biomes stuff like that)
+  	|-- Core
+	|-- ContentLibrary
+	|-- Project
 </pre>
 
 The reasons for this structure are listed in the following sub-sections.
