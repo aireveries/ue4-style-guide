@@ -375,6 +375,8 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
   	|-- Core
 	|-- ContentLibrary
 	|-- Project
+    |-- ThirdPartyContent
+    |-- Developers
 </pre>
 
 The reasons for this structure are listed in the following sub-sections.
