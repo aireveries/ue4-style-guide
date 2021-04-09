@@ -244,12 +244,15 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Texture (Roughness)     | T_         | _R         |                                  |
 | Texture (Alpha/Opacity) | T_         | _A         |                                  |
 | Texture (Ambient Occlusion) | T_     | _O         |                                  |
-| Texture (Bump)          | T_         | _B         |                                  |
+| Texture (Height)        | T_         | _H         |                                  |
 | Texture (Emissive)      | T_         | _E         |                                  |
 | Texture (Mask)          | T_         | _MK        |                                  |
 | Texture (Specular)      | T_         | _S         |                                  |
 | Texture (Metallic)      | T_         | _M         |                                  |
 | Texture (Detail Normal) | T_         | _DN        |                                  |
+| Texture (Transmission)  | T_         | _T         |                                  |
+| Texture (Weight)        | T_         | _W         |                                  |
+| Texture (Subsurface Scatter) | T_         | _SSS       |                                  |
 | Texture (Packed)        | T_         | _*         | See notes below about [packing](#anc-textures-packing). |
 | Texture Array           | T2D_       |            |                                  |
 | Texture Cube            | TC_        |            |                                  |
